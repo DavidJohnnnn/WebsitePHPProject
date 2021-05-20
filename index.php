@@ -24,29 +24,25 @@ https://www.flickr.com/photos/63339095@N05/8441280651
   include 'lgContainerDiv.php';
 
 
+  $position = "Shitotsu";
+  $cardTitle = "Purpose";
+  $cardText = 'My name is David and this is my website. This website contains some useful information about me. I am an Electrical Engineering Graduate from the University of Toronto, St. George Campus (BASc) in search of programming and web development work. You can explore this website to learn more about me.
+  <br>
+  <br>
+  <small>
+    This element is something I made myself using some Bootstrap and a lot of custom CSS and JavaScript (you can see more if you search the css, js and html files for "RevealCard".
+    <a href="https://github.com/DavidJohnnnn/My-Own-Website" class="btn btn-outline-info btn-sm" role="button" aria-pressed="true">Check out the repo</a>
+    <br>
+    <br>
+    Press this section again to close.
+  </small>';
   include 'revealCard.php';
 
-?>
-<!--
-    <%- include('lgContainerDiv', {
-      pageClass: "IndexLgContainer",
-      quoteHTML: '<div class="card mb-3 indexQuote displayNone qtextShadow"><h5 class="card-title"><a href="https://github.com/DavidJohnnnn/My-Own-Website">"EVERYTHING<br>YOU CAN IMAGINE<br>IS REAL"<br>&nbsp;&nbsp;&nbsp;- Picasso</a></h5></div>'
-    }); %>
+  $FeaturedImgIndex = "FeaturedImgIndex";
+  $paragraph = "If you want to get in contact, you can reach me on Linked In.";
+  $link = "https://www.linkedin.com/in/david-j-john/";
+  $linkText = "Here I am!";
+  include 'featuredTextDiv.php';
 
-    <%- include('revealCard', {
-      position: "Shitotsu",
-      cardTitle: "Purpose",
-      cardText: 'My name is David and this is my website. This website contains some useful information about me. I am an Electrical Engineering Graduate from the University of Toronto, St. George Campus (BASc) in search of programming and web development work. You can explore this website to learn more about me.'
-    }); %>
-
-    <%- include('featuredTextDiv', {
-      FeaturedImgIndex: "FeaturedImgIndex",
-      paragraph: "If you want to get in contact, you can reach me on Linked In.",
-      link: "https://www.linkedin.com/in/david-j-john/",
-      linkText: "Here I am!"
-    }); %>
--->
-
-<?php
   include 'footer.php';
 ?>
