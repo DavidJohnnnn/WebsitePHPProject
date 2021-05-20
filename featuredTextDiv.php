@@ -7,6 +7,6 @@
       <?php echo $paragraph ?>
     </p>
     <br>
-    <a href="<?php echo $link ?>" class="btn btn-light hideDiv"><?php echo $linkText ?></a>
+    <a href="<?php echo $link ?>" class="btn btn-light hideDiv" onclick="window.open(this.href); return false;"><?php echo $linkText ?></a>
   </div>
 </section>

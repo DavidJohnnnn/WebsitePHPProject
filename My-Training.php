@@ -39,7 +39,7 @@ https://www.flickr.com/photos/132795455@N08/16662196134
   <br>
   <small>
     This element is something I made myself using some Bootstrap and a lot of custom CSS and JavaScript (you can see more if you search the css, js and html files for "RevealCard".
-    <a href="https://github.com/DavidJohnnnn/My-Own-Website" class="btn btn-outline-info btn-sm" role="button" aria-pressed="true">Check out the repo</a>
+    <a href="https://github.com/DavidJohnnnn/My-Own-Website" class="btn btn-outline-info btn-sm" role="button" aria-pressed="true" onclick="window.open(this.href); return false;">Check out the repo</a>
     <br>
     <br>
     Press this section again to close.
