@@ -20,13 +20,24 @@ https://www.flickr.com/photos/63339095@N05/8441280651
 
   include 'titleBar.php';
 
-  $quoteHTML = '<div class="card mb-3 indexQuote displayNone qtextShadow"><h5 class="card-title"><a href="https://github.com/DavidJohnnnn/My-Own-Website">"EVERYTHING<br>YOU CAN IMAGINE<br>IS REAL"<br>&nbsp;&nbsp;&nbsp;- Picasso</a></h5></div>';
+  $pageClass = "IndexLgContainer";
+  $quoteHTML = '
+  <div class="card mb-3 indexQuote displayNone qtextShadow">
+    <h5 class="card-title">
+      <a href="https://github.com/DavidJohnnnn/My-Own-Website">
+        "EVERYTHING<br>YOU CAN IMAGINE<br>IS REAL"
+        <br>
+        &nbsp;&nbsp;&nbsp;- Picasso
+      </a>
+    </h5>
+  </div>';
   include 'lgContainerDiv.php';
 
 
   $position = "Shitotsu";
-  $cardTitle = "Purpose";
-  $cardText = 'My name is David and this is my website. This website contains some useful information about me. I am an Electrical Engineering Graduate from the University of Toronto, St. George Campus (BASc) in search of programming and web development work. You can explore this website to learn more about me.
+  $cardTitle = "PURPOSE";
+  $cardText = '
+  My name is David and this is my website. This website contains some useful information about me. I am an Electrical Engineering Graduate from the University of Toronto, St. George Campus (BASc) in search of programming and web development work. You can explore this website to learn more about me.
   <br>
   <br>
   <small>

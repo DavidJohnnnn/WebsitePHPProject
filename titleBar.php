@@ -3,7 +3,7 @@
   <div class="container-fluid">
     <div class="sideWipe leftSideWipe"></div>  <!-- line motion animation -->
     <nav class="navbar navbar-expand-xl navbar-light bg-light offblink ml-auto">
-      <a class="navbar-brand" href="index.html">
+      <a class="navbar-brand" href="/">
         <h1 class="myLogo hiddenPadding offblink">
           <span class="title-A">Hi, I'm</span>
           <span class="textAlter">DAVID JOHN</span>
@@ -12,16 +12,16 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mx-auto">
           <li class="nav-item active offblink">
-            <a class="nav-link Links offblink" href="index.html"><i class="fas fa-home"></i> <span class="sr-only">(current)</span></a>
+            <a class="nav-link Links offblink" href="/"><i class="fas fa-home"></i> <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item offblink">
-            <a class="nav-link Links offblink" href="My-History.html">MY RELEVANT EXPERIENCES</a>
+            <a class="nav-link Links offblink" href="My-History.php">MY RELEVANT EXPERIENCES</a>
           </li>
           <li class="nav-item offblink">
-            <a class="nav-link Links offblink" href="My-Training.html">MY EDUCATION & SKILLS</a>
+            <a class="nav-link Links offblink" href="My-Training.php">MY EDUCATION & SKILLS</a>
           </li>
           <li class="nav-item offblink">
-            <a class="nav-link Links offblink" href="About-Me.html">ABOUT ME</a>
+            <a class="nav-link Links offblink" href="About-Me.php">ABOUT ME</a>
           </li>
         </ul>
         <ul class="navbar-nav ml-auto">
