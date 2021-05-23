@@ -48,6 +48,7 @@ https://www.flickr.com/photos/132795455@N08/16662196134
 
  ?>
 
+  <!-- Div Section containing Education Section -->
   <section>
     <div class="container-fluid" style="text-align: left; margin: 100px auto; width: 90%; ">
       <div class="card" style="border-width: 3px; border-style: solid none;">
@@ -75,6 +76,7 @@ https://www.flickr.com/photos/132795455@N08/16662196134
     </div>
   </section>
 
+  <!-- Bootstrap Carousel containing Skills listing -->
   <section style="margin: 250px 0 100px;">
     <div id="carouselExampleInterval" class="carousel slide carousel-fade" data-ride="carousel">
       <div class="carousel-inner">
@@ -82,28 +84,28 @@ https://www.flickr.com/photos/132795455@N08/16662196134
           <div class="card FeaturedUsers First">
             <h2 class="FeatTitleUsers">Programming</h2>
             <p class="FeatPghUsers">
-              Java, Python, HTML, CSS, Bootstrap, Javascript, SQL (PostgreSQL), C/C++, MATLAB
-              <br>
+              Proficient: Java, Python, HTML, CSS, JavaScript, PostgreSQL, MATLAB, JQuery, Git
+              <br><br>
+              Familiar: Bootstrap, EJS, C/C++, Node.js, Express.js, PHP, APIs, Bash Shell scripting, TCP/IP, UDP, DNS, JSON, XML
             </p>
-            <br>
           </div>
         </div>
         <div class="carousel-item">
           <div class="card FeaturedUsers Second">
             <h2 class="FeatTitleUsers">Applications and OSs</h2>
             <p class="FeatPghUsers">
-              Google Docs, Google Sheets, Google Drive, Slack, Microsoft Word, Microsoft Excel, Microsoft Powerpoint, Microsoft Project, Microsoft Outlook
+              Google Workspace, Microsoft Office, Microsoft Outlook, Atom, IntelliJ IDEA, Github Desktop, Slack, Hyper, Heroku, PgAdmin4, Processing IDE, Postman, SQL Shell (Psql), Wireshark, Notepad++, SVN
               <br><br>
-              Windows, Mac, Linux
+              Windows, Mac OSX, Linux
             </p>
-            <br>
           </div>
         </div>
         <div class="carousel-item" data-interval="2000">
           <div class="card FeaturedUsers Third">
             <h2 class="FeatTitleUsers">Other Relevant University Courses</h2>
-            <p class="FeatPghUsers">Introduction to Databases, Leadership in Project Management, The Art of Ethical & Equitable Decision Making in Engineering</p>
-            <br>
+            <p class="FeatPghUsers">
+              Introduction to Databases, Computer Networks, Internetworking, Algorithms and Data Structures, Leadership in Project Management, The Art of Ethical & Equitable Decision Making in Engineering
+            </p>
           </div>
         </div>
       </div>
