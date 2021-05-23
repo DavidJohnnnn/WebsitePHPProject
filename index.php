@@ -50,7 +50,8 @@ https://www.flickr.com/photos/63339095@N05/8441280651
   include 'revealCard.php';
 
   $FeaturedImgIndex = "FeaturedImgIndex";
-  $paragraph = "If you want to get in contact, you can reach me on Linked In.";
+  $paragraph = "Graduated from the University of Toronto Electrical and Computer Engineering program in 2019. Passionate about software design, web development, computer networks and system design. Adept in Java, Python, HTML, CSS, JavaScript, PostgreSQL and MATLAB, with working knowledge of a number of other programming languages. Experienced with object-oriented programming, a myriad of basic and complex algorithms, relational database logic, design and querying, and network programming and protocols. Strong work ethic both individually and as a team member. Quick to learn and adapt existing knowledge to new technologies, applications and programming languages.";
+  $subLine = "If you want to get in contact, you can reach me on LinkedIn.";
   $link = "https://www.linkedin.com/in/david-j-john/";
   $linkText = "Here I am!";
   include 'featuredTextDiv.php';
