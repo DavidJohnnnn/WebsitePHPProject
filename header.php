@@ -17,7 +17,7 @@
     <script src="https://kit.fontawesome.com/5a26093337.js" crossorigin="anonymous"></script>
 
     <!-- CSS stylesheet -->
-    <link rel="stylesheet" href="public/stylesIndex.css">
+    <link rel="stylesheet" href="public/css/stylesIndex.css">
 
     <!-- Switch this out -->
     <title>
@@ -26,7 +26,7 @@
   </head>
 
   <!-- Favicon -->
-  <link rel="icon" href="public/IndexFavicon.ico">  <!-- Switch this out -->
+  <link rel="icon" href="public/favicons/<?php echo $favicon ?>">  <!-- Switch this out -->
 
   <body id="001-indexPage"> <!-- Switch this out -->
     <!-- Bootstrap script lines -->
