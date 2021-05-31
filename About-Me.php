@@ -23,7 +23,7 @@ https://www.flickr.com/photos/48660975@N02/19663096295
   include 'lgContainerDiv.php';
 
   $position = "Shitotsu";
-  $cardTitle = "Who am I?";
+  $cardTitle = "Who Am I?";
   $cardText = 'Just a normal guy moving forward.';
   include 'revealCard.php';
 
